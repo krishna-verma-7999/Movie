@@ -1,0 +1,39 @@
+1. npm create vite@latest = In this way we can install react app which is more clean and fast.
+2. npm i = is used to install all node modules that is mentioned in your package.json file in dependencies array.
+3. npm run dev = is used to run your react app.
+4. Vite app is faster then react app.
+5. optional chaining is very important concept to remember
+
+---
+
+5. For TMDB Api -> go to TMDB website
+6. To use api we have two options => 1. TO use Key 2. To use Token
+7. create .env file and create a token => syntax => VITE_APP_someIdentifierOfYourChoice
+8. If we want to use redux then we need two things :- redux toolkit , react redux
+
+---
+
+#For Home Page :-
+
+==>for hero section :-
+
+1. we are using a third party react library called react-lazy-load-image-component for images
+
+=> fOR HEADER : -
+
+1. when you create event listener in useEffect then you also need to remove it.
+
+https://developers.themoviedb.org/3/trending/get-trending = Endpoints of Api
+
+=> Carousel :-
+
+1. dayjs is used to convert your date into readable format
+2. for rating we are using a library named react-circular-progressbar
+
+=> video player :-
+
+1. we are using react player library
+
+=> for search page :-
+
+1. react-infinite-scroll component npm

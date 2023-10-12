@@ -10,7 +10,7 @@ const Home = () => {
         <div className='homePage'>
             <HeroBanner></HeroBanner>
             <Trending />
-            <Popular />
+            {/* <Popular /> */}
             <TopRated />
         </div>
     )
